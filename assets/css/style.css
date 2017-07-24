@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+
+}
+
+body {
+    background-color: #F9F7F3;
+ }
+ footer{
+ 	height: 70px;
+ 	background-color: #F9F7F3 !important;
+ 	position: fixed;
+ 	bottom: 0px;
+ 	color:black !important;
+ 	width: 100%;
+ }
+
+ h1{
+ 	font-family: 'Lora', serif;
+ 	font-size: 15px;
+ 	margin: 10px;
+ }
+#icon{
+	height: 15px;
+	width:15px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 20px;
+}
+li{
+	font-size: 14px;
+}
+.modal{
+	background-color: #F9F7F3;
+}
