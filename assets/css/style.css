@@ -27,9 +27,46 @@ body {
 	float: right;
 	margin-right: 20px;
 }
+
+#c{
+	float: right;
+}
+#l2{
+	margin-left: 75px;
+	margin-top: 90px;
+}
 li{
 	font-size: 14px;
 }
 .modal{
 	background-color: #F9F7F3;
+}
+img{
+	height: 350px;
+	width: 350px;
+}
+.row{
+	margin-bottom: 200px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+
+img{
+	height: 150px;
+	width: 150px;
+}
+.row{
+	margin-bottom: 100px;
+}
+#l2{
+	margin-left: 25px;
+	margin-top: 40px;
+}
+#d{
+	margin-left: 200px;
+}
+#icon{
+	margin-right: 40px;
+	margin-top: 10px;
+}
 }
