@@ -41,9 +41,13 @@ li{
 .modal{
 	background-color: #F9F7F3;
 }
-img{
-	height: 350px;
-	width: 350px;
+.vertical{
+height: 400px;
+width: 300px;
+}
+.horizontal{
+height: 300px;
+width: 400px;
 }
 .row{
 	margin-bottom: 200px;
@@ -51,9 +55,13 @@ img{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
 
-img{
-	height: 150px;
-	width: 150px;
+.vertical{
+height: 200px;
+width: 100px;
+}
+.horizontal{
+height: 100px;
+width: 200px;
 }
 .row{
 	margin-bottom: 100px;
